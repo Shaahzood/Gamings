@@ -1,0 +1,662 @@
+@media(max-width:1180px) {
+    .news__img {
+        height: 229px;
+    }
+
+    .news__item,
+    .news__img {
+        max-width: 365px;
+
+    }
+
+    .news__title-bottom {
+        font-size: 24px;
+    }
+
+    .game__time {
+        font-size: 94px;
+    }
+
+    .appointments__before .tour__img {
+        max-width: 190px;
+        min-height: 190px;
+    }
+
+    .footer {
+        margin-top: 120px;
+    }
+}
+
+@media(max-width:1024px) {
+    .news__img {
+        height: 209px;
+    }
+
+    .news__item,
+    .news__img {
+        max-width: 310px;
+
+    }
+
+    .btn {
+        font-size: 17px;
+        padding: 15px 30px
+    }
+
+    .news__content-bottom {
+        column-gap: 18px;
+    }
+
+    .appointments__before .tour__img {
+        max-width: 141px;
+        min-height: 141px;
+    }
+
+    .appointments__time {
+        padding-top: 30px;
+    }
+
+    .tournament__bottom {
+        column-gap: 10px;
+    }
+
+    .news__time {
+        font-size: 13px;
+    }
+
+    .news__title-bottom {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .footer__logo {
+        max-width: 198px;
+        min-height: 101px;
+    }
+
+    .footer__title {
+        font-size: 23px;
+    }
+
+    .tournament__bottom {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .appointments__before {
+        column-gap: 280px;
+    }
+
+    .tour__title {
+        max-width: 323px;
+        font-size: 22px;
+    }
+
+    .appointments__before .tour__img {
+        max-width: 209px;
+        min-height: 201px;
+    }
+
+    .tour__text {
+        bottom: 0px;
+    }
+
+    .tour__text.right {
+        transform: translateX(-120%);
+    }
+
+    .tour__text.left {
+        transform: translateX(30%);
+    }
+
+    .tour__title.left {
+        text-align: right;
+        padding-right: 30px;
+    }
+}
+
+@media(max-width:940px) {
+
+    .news__item,
+    .news__img {
+        max-width: 293px;
+    }
+
+    .news__img {
+        height: 194px;
+    }
+
+    .news__time {
+        font-size: 12px;
+    }
+
+    .news__title-bottom {
+        font-size: 18px;
+    }
+
+    .footer__content {
+        column-gap: 5px;
+    }
+
+    .footer__title {
+        margin: 22px 0;
+    }
+
+    .home-img {
+        max-width: 715px;
+        height: 356px;
+    }
+}
+
+@media(max-width:768px) {
+    .news__content-bottom {
+        flex-wrap: wrap;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+    }
+
+    .home-img {
+        max-width: 620px;
+        height: 314px;
+    }
+
+    .home__content {
+        min-height: 843px;
+    }
+
+    .home__title {
+        font-size: 53px;
+        line-height: 66px;
+    }
+
+    .appointments__before {
+        column-gap: 140px;
+    }
+
+    .game__time {
+        font-size: 87px;
+    }
+
+    .news__item {
+        max-width: 360px;
+        justify-content: center;
+    }
+
+    .news__img {
+        height: 222px;
+        max-width: 360px;
+    }
+
+    .news__content-bottom {
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    /* M * E * N * U */
+
+    .nav-menu,
+    .menu-close {
+        display: block;
+    }
+
+    .nav__btn {
+        display: none;
+    }
+
+    .menu-close {
+        position: absolute;
+        font-size: 40px;
+        top: 36px;
+        right: 38px;
+        cursor: pointer;
+    }
+
+    .header__list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 72px;
+        padding-top: 130px;
+    }
+
+    .nav__menu-list {
+        position: fixed;
+        background: var(--bg-oxford-blue);
+        top: 0;
+        right: -100%;
+        width: 60%;
+        height: 100%;
+        /* opacity: 0.9; */
+        transition: 0.5s;
+        backdrop-filter: blur(43px);
+    }
+
+    .show-menu {
+        right: 0;
+    }
+}
+
+
+@media(max-width:576px) {
+    .tour__text.left {
+        transform: translateX(-2%);
+    }
+
+    .tour__text.right {
+        transform: translateX(-98%);
+    }
+
+    .tour__text {
+        padding: 11px 19px;
+        font-size: 19px;
+    }
+
+    .home__title {
+        max-width: 548px;
+        font-size: 41px;
+        line-height: 55px;
+    }
+
+    .subtitle {
+        font-size: 31px;
+    }
+
+    .home-img {
+        max-width: 447px;
+        height: 231px;
+    }
+
+    .home__content {
+        min-height: 750px;
+    }
+
+    .tour__title-top {
+        font-size: 47px;
+    }
+
+    .tour__text-top {
+        font-size: 24px;
+    }
+
+    .appointments__before .tour__img {
+        max-width: 176px;
+        min-height: 168px;
+    }
+
+    .appointments__before {
+        column-gap: 131px;
+    }
+
+    .news__title {
+        font-size: 40px;
+    }
+
+    .news__title-top {
+        font-size: 24px;
+    }
+
+    .footer__logo {
+        max-width: 179px;
+        min-height: 81px;
+    }
+
+    .footer__content {
+        padding: 20px;
+    }
+
+    .footer__contact,
+    .footer__form {
+        margin-top: 30px;
+    }
+
+    .game__time {
+        font-size: 78px;
+    }
+
+    .date {
+        font-size: 21px;
+    }
+
+    .social-icons {
+        gap: 25px;
+    }
+
+    .footer__text-bottom {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:426px) {
+    .appointments__before {
+        column-gap: 90px;
+    }
+
+    .appointments__before .tour__img {
+        max-width: 144px;
+        min-height: 138px;
+    }
+
+    .appointments__before::before {
+        height: 114px;
+    }
+
+    .tour__text {
+        padding: 9px 17px;
+        font-size: 16px;
+    }
+
+    .tour__title {
+        max-width: 323px;
+        font-size: 17px;
+        max-width: 134px;
+    }
+
+    .tour__title.right {
+        margin-left: 30px;
+    }
+
+    .tour__title.left {
+        margin-right: 30px;
+        padding-right: 0;
+    }
+
+    .home__title {
+        font-size: 34px;
+        line-height: 46px;
+    }
+
+    .btn {
+        font-size: 17px;
+        padding: 14px 28px;
+    }
+
+    .home__content {
+        min-height: 610px;
+    }
+
+    .home-img {
+        max-width: 323px;
+        height: 172px;
+    }
+
+    .subtitle {
+        padding-top: 126px;
+        letter-spacing: 9px;
+        font-size: 20px;
+    }
+
+    .tour__title-top {
+        font-size: 26px;
+    }
+
+    .tour__text-top {
+        font-size: 20px;
+    }
+
+    .tour__text {
+        bottom: -15px;
+    }
+
+    .game__time {
+        font-size: 60px;
+    }
+
+    .date {
+        margin-block: 12px;
+        font-size: 20px;
+    }
+
+    .tour__text-bottom {
+        font-size: 12px;
+    }
+
+    .news__title {
+        font-size: 30px;
+    }
+
+    .news__title-top {
+        font-size: 22px;
+    }
+
+    .news {
+        margin-top: 114px;
+    }
+
+    .news__text {
+        font-size: 14px;
+    }
+
+    .navbar {
+        padding: 12px;
+    }
+
+    .nav-menu,
+    .menu-close {
+        font-size: 34px;
+    }
+
+    .footer__content {
+        row-gap: 30px;
+        padding: 0;
+    }
+
+    .footer__contact,
+    .footer__form {
+        margin-top: 0;
+    }
+}
+
+@media(max-width:375px) {
+    .home__title {
+        font-size: 31px;
+        line-height: 39px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    .home-img {
+        max-width: 300px;
+        height: 159px;
+    }
+
+
+    .appointments__before .tour__img {
+        max-width: 138px;
+        min-height: 130px;
+    }
+
+    .tour__text.left {
+        transform: translateX(-16%);
+    }
+
+    .tour__text.right {
+        transform: translateX(-84%);
+    }
+
+    .appointments__before {
+        column-gap: 58px;
+    }
+
+    .tour__text {
+        font-size: 15px;
+    }
+
+    .appointments__before::before {
+        height: 100px;
+    }
+
+    .tour__text {
+        bottom: -5px;
+    }
+
+    .news__text {
+        line-height: 17px;
+    }
+
+    .news__item,
+    .news__img {
+        max-width: 338px;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .news__time {
+        font-size: 14px;
+    }
+
+    .icon {
+        font-size: 25px;
+    }
+
+    .footer {
+        margin-top: 95px;
+    }
+
+    .back-top-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:360px) {
+    .appointments__before {
+        column-gap: 43px;
+    }
+
+    .news__item,
+    .news__img {
+        max-width: 335px;
+    }
+
+    .news__img {
+        height: 209px;
+    }
+}
+
+@media(max-width:320px) {
+
+    .news__item,
+    .news__img {
+        max-width: 291px;
+    }
+
+    .news__card {
+        padding: 19px;
+    }
+
+    .news__time {
+        font-size: 12px;
+    }
+
+    .navbar {
+        padding: 8px;
+    }
+
+    .news__img {
+        height: 189px;
+    }
+
+    .news__tag {
+        font-size: 16px;
+    }
+
+    .tour__text {
+        padding: 6px 9px;
+        font-size: 14px;
+    }
+
+    .tour__text {
+        bottom: -14px;
+    }
+
+    .appointments__before {
+        column-gap: 25px;
+    }
+
+    .news__title-top {
+        font-size: 19px;
+    }
+
+    .news__title {
+        font-size: 25px;
+    }
+
+    .appointments__before .tour__img {
+        max-width: 107px;
+        min-height: 99px;
+    }
+
+    .tour__title {
+        font-size: 14px;
+    }
+
+    .appointments__before::before {
+        height: 84px;
+    }
+
+    .header {
+        padding: 6px 8px;
+    }
+
+    .home__title {
+        font-size: 27px;
+        line-height: 36px;
+    }
+
+    .home__title {
+        margin: 16px 0 25px 0;
+    }
+
+    .home__content {
+        min-height: 536px;
+    }
+
+    .tour__title-top {
+        font-size: 20px;
+    }
+
+    .tour__text-top {
+        font-size: 16px;
+    }
+
+    .game__time {
+        font-size: 52px;
+    }
+
+    .date {
+        font-size: 18px;
+    }
+
+    .footer__logo {
+        max-width: 147px;
+        min-height: 72px;
+    }
+
+    .footer__social-icon {
+        column-gap: 24px;
+    }
+
+    .nav__logo {
+        max-width: 80px;
+        height: 39px;
+    }
+
+    .footer__content {
+        row-gap: 10px;
+    }
+
+    .menu-close {
+        top: 20px;
+        right: 32px;
+    }
+}

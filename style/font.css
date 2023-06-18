@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Oxanium';
+    src: url(../fonts/Oxanium-Regular.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url(../fonts/WorkSans-Regular.ttf);
+    font-weight: 400;
+}
